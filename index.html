@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q - BIL Coin Market</title>
+    <style>
+        /* Reset Default Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background Styling */
+        body {
+            background-image: url('img/sigma.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        /* Responsive Grid Layout */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 items per row on large screens */
+            gap: 15px; /* Consistent spacing */
+            max-width: 900px; /* Prevents items from stretching too much */
+            margin: 20px auto; /* Centers the grid */
+            padding: 10px;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr); /* 2 items per row on tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr); /* 1 item per row on small phones */
+            }
+        }
+
+        /* Product Card */
+        .product {
+            background: rgba(0, 0, 0, 0.6); /* Transparent black background */
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Product Image */
+        .product img {
+            width: 100%;
+            max-height: 180px; /* Consistent height */
+            object-fit: cover; /* Crop and fit images */
+            border-radius: 5px;
+        }
+
+        /* Product Text */
+        .product p {
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="product">
+            <img src="img/1t-shirtksblack-189e88918c-a24f9000b8090294a574f50ea61ebce1.jpeg" alt="T-Shirt">
+            <p>30000 BILCOIN</p>
+        </div>
+        <div class="product">
+            <img src="img/asida98sdua8osd.webp" alt="Notebook">
+            <p>30000 BILCOIN</p>
+        </div>
+        <div class="product">
+            <img src="img/images.png" alt="School Bag">
+            <p>40000 BILCOIN</p>
+        </div>
+        <div class="product">
+            <img src="img/1t-shirtksblack-189e88918c-a24f9000b8090294a574f50ea61ebce1.jpeg" alt="T-Shirt">
+            <p>30000 BILCOIN</p>
+        </div>
+        <div class="product">
+            <img src="img/asida98sdua8osd.webp" alt="Notebook">
+            <p>30000 BILCOIN</p>
+        </div>
+        <div class="product">
+            <img src="img/images.png" alt="School Bag">
+            <p>40000 BILCOIN</p>
+        </div>
+    </div>
+
+</body>
+</html>
